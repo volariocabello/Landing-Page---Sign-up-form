@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 3px solid pink;
+    background: hsl(0, 100%, 74%);
+    background-image: url("./images/bg-intro-desktop.png");
+}
+
+.left h1, p {
+    color: white;
+    margin-left: 30px;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    padding: 7%;
+}
+
+.left h1 {
+    margin-bottom: 25px;
+}
+
+.right {
+    width: 50%;
+}
+
+.free-trial {
+    height: 30%;
+    background: hsl(248, 32%, 49%);
+    width: 85%;
+    margin-bottom: 25px;
+    text-align: center;
+    vertical-align: auto;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 3px 8px -1px #000000;
+}
+
+.signup-form {
+    height: 70%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 85%;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px -1px #000000;
+    
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 75vh;
+    margin: 15px;
+    border-radius: 8px;
+    border-color: hsl(246, 25%, 77%);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.submit-btn {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 75vh;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0px 3px 8px -3px #000000;
+    cursor: pointer;
+}
+
+.disclaimer {
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: grey;
+    padding-bottom: 15px;
+}
+
+.try-it-free {
+    font-weight: 700;
+}
+
+.free-trial span {
+    color: white;
+}
+
+.terms-services {
+    color: hsl(0, 100%, 74%);
+    cursor: pointer;
+}
